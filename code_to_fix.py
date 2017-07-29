@@ -7,11 +7,11 @@ expenses = {
 "Rent": "1100",
 "Taxes": "500"}
 
-print "Monthly expenses:"
+print("Monthly expenses:")
 for ex in expenses:
-	print "\t" + ex + ':\t$' + expenses[ex]
+	print("\t" + ex + ':\t$' + expenses[ex])
 
-print "\nTotal expenses, excluding tax:"
+print("\nTotal expenses, excluding tax:")
 total = expenses["Food"] + expenses["Rent"]
-print '$' + total 
+print('$' + total) 
 
